@@ -18,5 +18,6 @@ if __name__ == '__main__':
 temp = [x for x in range(1,11)]
 print(f"Original list = {temp}")
 print(f"First Five number of list = {temp[0:5]}")
-print(f"Reverse Of FIrt Five numbes = {temp[5:0:-1]}")
+print(f"Reverse Of FIrt Five numbes = {temp[4:-1:-1]}")
+
 
